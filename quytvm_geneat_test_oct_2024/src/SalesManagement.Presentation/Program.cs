@@ -1,3 +1,4 @@
+using SalesManagement.Infrastructure;
 
 namespace SalesManagement.Presentation
 {
@@ -6,6 +7,9 @@ namespace SalesManagement.Presentation
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            //Add layer dependency
+            builder.Services.ConfigureInfrastructure(builder.Configuration);
 
             // Add services to the container.
 
