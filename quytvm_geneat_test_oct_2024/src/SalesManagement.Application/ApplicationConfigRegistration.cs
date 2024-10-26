@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using SalesManagement.Application.IService;
+using SalesManagement.Application.IServices;
 using SalesManagement.Application.Services;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,7 @@ namespace SalesManagement.Application
         {
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<IOrderService, OrderService>();
 
             return services;
         }

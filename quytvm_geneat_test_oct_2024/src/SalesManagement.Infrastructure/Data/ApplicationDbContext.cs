@@ -18,6 +18,12 @@ namespace SalesManagement.Infrastructure.Data
         public DbSet<Order> Orders { get; set; }
         public DbSet<ProductOrder> ProductOrders { get; set; }
 
-
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Order>()
+                .HasMany(o => o.ProductOrders)
+                .WithOne(po => po.Order)
+                .HasForeignKey(po => po.OrderId);
+        }
     }
 }

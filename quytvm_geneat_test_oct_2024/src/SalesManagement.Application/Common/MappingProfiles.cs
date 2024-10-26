@@ -15,6 +15,12 @@ namespace SalesManagement.Application.Common
         {
             CreateMap<Product, ProductDto>().ReverseMap();
             CreateMap<Product, CreateProductDto>().ReverseMap();
+
+            CreateMap<Order, OrderDto>().ReverseMap();
+            CreateMap<CreateOrderDto, Order>().ReverseMap();
+
+            CreateMap<CreateProductOrderDto,ProductOrder>().ReverseMap();
+            CreateMap<ProductOrderDto,ProductOrder>().ReverseMap(); 
         }
     }
 }

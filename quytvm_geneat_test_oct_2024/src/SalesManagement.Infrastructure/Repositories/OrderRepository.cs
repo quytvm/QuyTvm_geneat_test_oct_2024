@@ -19,17 +19,21 @@ namespace SalesManagement.Infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<Order> GetLastOrder()
-        {
-            var lastEntity = await _context.Orders.OrderByDescending(p => p.OrderCode).FirstOrDefaultAsync();
-            return lastEntity;
+        public async Task<Order> GetLastOrder(string prefix, string dateString)
+        { 
+            var lastOrder = await _context.Orders
+                .Where(o => o.OrderCode.StartsWith($"{prefix}{dateString}"))
+                .OrderByDescending(o => o.OrderCode)
+                .FirstOrDefaultAsync();
+            return lastOrder;
         }
 
         public async Task<Order> GetOrderDetails(int id)
         {
             var order = await _context.Orders
                 .Include(o => o.ProductOrders)
-                .FirstOrDefaultAsync(p => p.Id == id);
+                .ThenInclude(p => p.Product)
+                .FirstOrDefaultAsync(o => o.Id == id);
             return order;
         }
     }

@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using SalesManagement.Application.IServices;
 using SalesManagement.Domain.IRepositories;
 using SalesManagement.Infrastructure.Data;
 using SalesManagement.Infrastructure.Repositories;
@@ -24,6 +25,7 @@ namespace SalesManagement.Infrastructure
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IOrderRepository, OrderRepository>();
             services.AddScoped<IProductOrderRepository, ProductOrderRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             return services;
         }

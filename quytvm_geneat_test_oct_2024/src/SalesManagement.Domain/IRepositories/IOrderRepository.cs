@@ -10,6 +10,6 @@ namespace SalesManagement.Domain.IRepositories
     public interface IOrderRepository : IGenericRepository<Order>
     {
         Task<Order> GetOrderDetails(int id);
-        Task<Order> GetLastOrder();
+        Task<Order> GetLastOrder(string prefix, string dateString);
     }
 }
