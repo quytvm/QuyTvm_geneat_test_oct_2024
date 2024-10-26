@@ -1,6 +1,5 @@
 using SalesManagement.Infrastructure;
 using SalesManagement.Application;
-using System.Text.Json.Serialization;
 
 namespace SalesManagement.Presentation
 {
@@ -14,8 +13,17 @@ namespace SalesManagement.Presentation
             builder.Services.ConfigureInfrastructure(builder.Configuration);
             builder.Services.ConfigureApplication();
 
-            // Add services to the container.
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowSpecificOrigin", builder =>
+                {
+                    builder.WithOrigins("http://localhost:3000")
+                           .AllowAnyHeader()
+                           .AllowAnyMethod();
+                });
+            });
 
+            // Add services to the container.
             builder.Services.AddControllers()
                 .AddNewtonsoftJson(option =>
                      option.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
@@ -23,6 +31,7 @@ namespace SalesManagement.Presentation
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddRouting(options => options.LowercaseUrls = true);
 
             var app = builder.Build();
 
@@ -33,10 +42,11 @@ namespace SalesManagement.Presentation
                 app.UseSwaggerUI();
             }
 
+            app.UseCors("AllowSpecificOrigin");
+
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
 
             app.MapControllers();
 

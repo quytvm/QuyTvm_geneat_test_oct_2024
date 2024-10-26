@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A53ED21D-171B-45DF-8219-7813BBAC8584}|src\\SalesManagement.Presentation\\SalesManagement.Presentation.csproj|d:\\nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\salesmanagement.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53ED21D-171B-45DF-8219-7813BBAC8584}|src\\SalesManagement.Presentation\\SalesManagement.Presentation.csproj|solutionrelative:src\\salesmanagement.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "src\\SalesManagement.Presentation\\Program.cs",
+              "ToolTip": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Presentation\\Program.cs",
+              "RelativeToolTip": "src\\SalesManagement.Presentation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T18:17:00.995Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

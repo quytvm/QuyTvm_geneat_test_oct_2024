@@ -155,3 +155,4 @@ D:\Nash\quytvm_geneat_test_oct_2024\quytvm_geneat_test_oct_2024\src\SalesManagem
 D:\Nash\quytvm_geneat_test_oct_2024\quytvm_geneat_test_oct_2024\src\SalesManagement.Presentation\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\Nash\quytvm_geneat_test_oct_2024\quytvm_geneat_test_oct_2024\src\SalesManagement.Presentation\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 D:\Nash\quytvm_geneat_test_oct_2024\quytvm_geneat_test_oct_2024\src\SalesManagement.Presentation\obj\Debug\net8.0\SalesManagement.Presentation.MvcApplicationPartsAssemblyInfo.cs
+D:\Nash\quytvm_geneat_test_oct_2024\quytvm_geneat_test_oct_2024\src\SalesManagement.Presentation\bin\Debug\net8.0\FluentValidation.AspNetCore.dll

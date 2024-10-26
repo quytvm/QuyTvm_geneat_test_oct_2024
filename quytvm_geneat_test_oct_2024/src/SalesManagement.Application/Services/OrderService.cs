@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using SalesManagement.Application.Dto;
+using SalesManagement.Application.Exceptions;
 using SalesManagement.Application.IServices;
 using SalesManagement.Domain.IRepositories;
 using SalesManagement.Domain.Models;
@@ -29,9 +30,9 @@ namespace SalesManagement.Application.Services
         {
             foreach (var productOrderDto in orderDto.productOrders)
             {
-                if (!await _productRepository.Exists(productOrderDto.ProductId))
+                if (! await _productRepository.Exists(productOrderDto.ProductId))
                 {
-                    return false;
+                    throw new FoundNotProducException($"Product with ID {productOrderDto.ProductId} does not exist.");
                 }
             }
 
@@ -103,7 +104,7 @@ namespace SalesManagement.Application.Services
             {
                 if (!await _productRepository.Exists(productOrderDto.ProductId))
                 {
-                    return false;
+                    throw new InvalidOperationException($"Product with ID {productOrderDto.ProductId} does not exist.");
                 }
             }
 

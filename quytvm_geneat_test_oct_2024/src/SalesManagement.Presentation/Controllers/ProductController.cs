@@ -24,22 +24,53 @@ namespace SalesManagement.Presentation.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateProduct([FromBody] CreateProductDto productDto)
         {
-            return Ok(await _productService.AddProductAsync(productDto));
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var result = await _productService.AddProductAsync(productDto);
+
+            if (result == null)
+            {
+                return UnprocessableEntity("Failed to create the product.");
+            }
+
+            return CreatedAtAction(nameof(GetProducts), new { id = result.ProductId }, result);
         }
 
         [HttpPut]
         public async Task<IActionResult> UpdateProduct([FromBody] CreateProductDto productDto)
         {
-            return Ok(await _productService.UpdateProductAsync(productDto));
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var isSuccess = await _productService.UpdateProductAsync(productDto);
+
+            if (!isSuccess)
+            {
+                return NotFound("Product not found or update failed.");
+            }
+
+            return Ok("Product updated successfully.");
         }
 
         [HttpDelete]
         public async Task<IActionResult> DeleteProduct(int id)
         {
-            return Ok(await _productService.DeleteProductAsync(id));
+            var isSuccess = await _productService.DeleteProductAsync(id);
+
+            if (!isSuccess)
+            {
+                return NotFound("Product not found or delete failed.");
+            }
+
+            return Ok("Product deleted successfully.");
         }
 
-        [HttpPatch]
+        [HttpPatch("{id}/Activate")]
         public async Task<IActionResult> ActiveProduct(int id)
         {
             return Ok(await _productService.ActiveProductAsync(id));
@@ -64,11 +95,15 @@ namespace SalesManagement.Presentation.Controllers
         {
             if (productIds == null || !productIds.Any())
             {
-                return BadRequest("Danh sách sản phẩm cần xóa không được rỗng.");
+                return BadRequest("Product ID list cannot be empty.");
             }
-            var result = await _productService.DeleteMultiProductAsync(productIds);
 
-            return Ok(result);
+            var result = await _productService.DeleteMultiProductAsync(productIds);
+            if (!result)
+            {
+                return StatusCode(500, "An error occurred while deleting multiple products.");
+            }
+            return Ok("Products deleted successfully.");
         }
 
     }
