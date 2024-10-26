@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using Azure.Core;
 using Microsoft.EntityFrameworkCore;
 using SalesManagement.Application.Dto;
 using SalesManagement.Application.IService;

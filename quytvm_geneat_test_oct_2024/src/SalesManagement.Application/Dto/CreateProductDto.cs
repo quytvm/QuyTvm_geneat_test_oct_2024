@@ -14,5 +14,6 @@ namespace SalesManagement.Application.Dto
         public decimal PurchasePrice { get; set; }
         public decimal SalePrice { get; set; }
         public bool IsActive { get; set; }
+        public decimal TaxRate { get; set; }
     }
 }

@@ -27,5 +27,8 @@ namespace SalesManagement.Domain.Models
         [Required]
         [Column(TypeName = "decimal(18,2)")]
         public decimal UnitPrice { get; set; }
+        public decimal TaxRate { get; set; }
+        public decimal TaxAmount => Quantity * UnitPrice * TaxRate / 100;
+        public decimal LineTotal => Quantity * UnitPrice - TaxAmount;
     }
 }

@@ -40,5 +40,7 @@ namespace SalesManagement.Domain.Models
         public DateTime CreatedDate { get; set; } = DateTime.Now;
 
         public DateTime? UpdatedDate { get; set; }
+
+        public decimal TaxRate { get; set; }
     }
 }

@@ -12,6 +12,7 @@ namespace SalesManagement.Application.Dto
         public string CustomerName { get; set; }
         public string CustomerPhone { get; set; }
         public ICollection<CreateProductOrderDto> productOrders { get; set; }
+        public decimal TotalTax { get; set; }
 
     }
 }

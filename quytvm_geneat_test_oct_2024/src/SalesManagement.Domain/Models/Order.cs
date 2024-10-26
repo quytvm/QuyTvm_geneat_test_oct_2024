@@ -31,6 +31,9 @@ namespace SalesManagement.Domain.Models
         [Required]
         [Column(TypeName = "decimal(18,2)")]
         public decimal TotalAmount { get; set; }
+
+        public decimal TotalTax { get; set; }
+
         public DateTime CreatedDate { get; set; } = DateTime.Now;
     }
 }

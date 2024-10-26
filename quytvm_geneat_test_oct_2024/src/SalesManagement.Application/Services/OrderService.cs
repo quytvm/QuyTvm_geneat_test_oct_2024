@@ -44,7 +44,8 @@ namespace SalesManagement.Application.Services
                     CustomerPhone = orderDto.CustomerPhone,
                     OrderCode = await GenerateOrderCode(),
                     TotalAmount = 0,
-                    ProductOrders = new List<ProductOrder>()
+                    ProductOrders = new List<ProductOrder>(),
+                    TotalTax = 0,
                 };
 
                 foreach (var productOrderDto in orderDto.productOrders)
@@ -53,12 +54,15 @@ namespace SalesManagement.Application.Services
                     var productOrder = new ProductOrder()
                     {
                         ProductId = productOrderDto.ProductId,
-                        Quantity = productOrderDto.Quantity
+                        Quantity = productOrderDto.Quantity,
+                        TaxRate = productOrderDto.TaxRate,
+                        UnitPrice = productOrderDto.UnitPrice > 0 ? productOrderDto.UnitPrice : productOrderDto.Product.SalePrice
                     };
 
-                    productOrder.UnitPrice = productOrderDto.UnitPrice > 0 ? productOrderDto.UnitPrice : productOrderDto.ProductDto.SalePrice;
-
-                    order.TotalAmount += productOrder.UnitPrice * productOrder.Quantity;
+                    decimal tax = productOrder.UnitPrice * productOrder.Quantity;
+                    decimal taxRate = tax * productOrder.TaxRate / 100;
+                    order.TotalTax += productOrder.TaxAmount;
+                    order.TotalAmount += productOrder.LineTotal;
 
                     order.ProductOrders.Add(productOrder);
                 }
@@ -110,6 +114,7 @@ namespace SalesManagement.Application.Services
                 order.CustomerPhone = orderDto.CustomerPhone;
                 order.ProductOrders = new List<ProductOrder>();
                 order.TotalAmount = 0;
+                order.TotalTax = 0;
                 foreach (var productOrderDto in orderDto.productOrders)
                 {
                     var productOrder = new ProductOrder()
@@ -117,12 +122,15 @@ namespace SalesManagement.Application.Services
                         Id = productOrderDto.Id,
                         OrderId = orderDto.Id,
                         ProductId = productOrderDto.ProductId,
-                        Quantity = productOrderDto.Quantity
+                        Quantity = productOrderDto.Quantity,
+                        UnitPrice = productOrderDto.UnitPrice > 0 ? productOrderDto.UnitPrice : productOrderDto.Product.SalePrice,
+                        TaxRate = productOrderDto.TaxRate,
                     };
 
-                    productOrder.UnitPrice = productOrderDto.UnitPrice > 0 ? productOrderDto.UnitPrice : productOrderDto.ProductDto.SalePrice;
-
-                    order.TotalAmount += productOrder.UnitPrice * productOrder.Quantity;
+                    decimal tax = productOrder.UnitPrice * productOrder.Quantity;
+                    decimal taxRate = tax * productOrder.TaxRate / 100;
+                    order.TotalTax += taxRate;
+                    order.TotalAmount += tax - taxRate;
 
                     order.ProductOrders.Add(productOrder);
                 }

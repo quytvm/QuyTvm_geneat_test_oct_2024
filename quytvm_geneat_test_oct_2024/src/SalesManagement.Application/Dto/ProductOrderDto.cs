@@ -17,5 +17,8 @@ namespace SalesManagement.Application.Dto
         public ProductDto Product { get; set; }
         public int Quantity { get; set; }
         public decimal UnitPrice { get; set; }
+        public decimal TaxRate { get; set; }
+        public decimal TaxAmount => Quantity * UnitPrice * TaxRate / 100;
+        public decimal LineTotal => Quantity * UnitPrice - TaxAmount;
     }
 }

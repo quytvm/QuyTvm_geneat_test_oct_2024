@@ -18,5 +18,6 @@ namespace SalesManagement.Application.Dto
         public ICollection<ProductOrderDto> ProductOrders { get; set; }
         public decimal TotalAmount { get; set; }
         public DateTime CreatedDate { get; set; }
+        public decimal TotalTax { get; set; }
     }
 }
