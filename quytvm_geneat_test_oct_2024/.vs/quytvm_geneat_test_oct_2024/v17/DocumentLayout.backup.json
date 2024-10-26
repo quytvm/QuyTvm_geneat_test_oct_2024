@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FF0A2FC-5000-4F8C-B806-71F99FC84400}|src\\SalesManagement.Infrastructure\\SalesManagement.Infrastructure.csproj|d:\\nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\salesmanagement.infrastructure\\migrations\\20241025184223_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FF0A2FC-5000-4F8C-B806-71F99FC84400}|src\\SalesManagement.Infrastructure\\SalesManagement.Infrastructure.csproj|solutionrelative:src\\salesmanagement.infrastructure\\migrations\\20241025184223_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A53ED21D-171B-45DF-8219-7813BBAC8584}|src\\SalesManagement.Presentation\\SalesManagement.Presentation.csproj|d:\\nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\salesmanagement.presentation\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53ED21D-171B-45DF-8219-7813BBAC8584}|src\\SalesManagement.Presentation\\SalesManagement.Presentation.csproj|solutionrelative:src\\salesmanagement.presentation\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A53ED21D-171B-45DF-8219-7813BBAC8584}|src\\SalesManagement.Presentation\\SalesManagement.Presentation.csproj|d:\\nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\salesmanagement.presentation\\salesmanagement.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A53ED21D-171B-45DF-8219-7813BBAC8584}|src\\SalesManagement.Presentation\\SalesManagement.Presentation.csproj|solutionrelative:src\\salesmanagement.presentation\\salesmanagement.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{34052AA0-A33B-41C5-B085-09F76E9E0C7B}|src\\SalesManagement.Application\\SalesManagement.Application.csproj|d:\\nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\salesmanagement.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34052AA0-A33B-41C5-B085-09F76E9E0C7B}|src\\SalesManagement.Application\\SalesManagement.Application.csproj|solutionrelative:src\\salesmanagement.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FF0A2FC-5000-4F8C-B806-71F99FC84400}|src\\SalesManagement.Infrastructure\\SalesManagement.Infrastructure.csproj|d:\\nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\salesmanagement.infrastructure\\salesmanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0FF0A2FC-5000-4F8C-B806-71F99FC84400}|src\\SalesManagement.Infrastructure\\SalesManagement.Infrastructure.csproj|solutionrelative:src\\salesmanagement.infrastructure\\salesmanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{34052AA0-A33B-41C5-B085-09F76E9E0C7B}|src\\SalesManagement.Application\\SalesManagement.Application.csproj|d:\\nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\salesmanagement.application\\dto\\paginatedlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34052AA0-A33B-41C5-B085-09F76E9E0C7B}|src\\SalesManagement.Application\\SalesManagement.Application.csproj|solutionrelative:src\\salesmanagement.application\\dto\\paginatedlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE2D16D1-F34E-4B80-87CC-DAE1AD1B6BC5}|src\\SalesManagement.Domain\\SalesManagement.Domain.csproj|d:\\nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\salesmanagement.domain\\models\\productorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE2D16D1-F34E-4B80-87CC-DAE1AD1B6BC5}|src\\SalesManagement.Domain\\SalesManagement.Domain.csproj|solutionrelative:src\\salesmanagement.domain\\models\\productorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34052AA0-A33B-41C5-B085-09F76E9E0C7B}|src\\SalesManagement.Application\\SalesManagement.Application.csproj|d:\\nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\salesmanagement.application\\iservices\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34052AA0-A33B-41C5-B085-09F76E9E0C7B}|src\\SalesManagement.Application\\SalesManagement.Application.csproj|solutionrelative:src\\salesmanagement.application\\iservices\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE2D16D1-F34E-4B80-87CC-DAE1AD1B6BC5}|src\\SalesManagement.Domain\\SalesManagement.Domain.csproj|d:\\nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\salesmanagement.domain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE2D16D1-F34E-4B80-87CC-DAE1AD1B6BC5}|src\\SalesManagement.Domain\\SalesManagement.Domain.csproj|solutionrelative:src\\salesmanagement.domain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE2D16D1-F34E-4B80-87CC-DAE1AD1B6BC5}|src\\SalesManagement.Domain\\SalesManagement.Domain.csproj|d:\\nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\salesmanagement.domain\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE2D16D1-F34E-4B80-87CC-DAE1AD1B6BC5}|src\\SalesManagement.Domain\\SalesManagement.Domain.csproj|solutionrelative:src\\salesmanagement.domain\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FF0A2FC-5000-4F8C-B806-71F99FC84400}|src\\SalesManagement.Infrastructure\\SalesManagement.Infrastructure.csproj|d:\\nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\salesmanagement.infrastructure\\infrastructureconfigregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FF0A2FC-5000-4F8C-B806-71F99FC84400}|src\\SalesManagement.Infrastructure\\SalesManagement.Infrastructure.csproj|solutionrelative:src\\salesmanagement.infrastructure\\infrastructureconfigregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A53ED21D-171B-45DF-8219-7813BBAC8584}|src\\SalesManagement.Presentation\\SalesManagement.Presentation.csproj|d:\\nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\salesmanagement.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A53ED21D-171B-45DF-8219-7813BBAC8584}|src\\SalesManagement.Presentation\\SalesManagement.Presentation.csproj|solutionrelative:src\\salesmanagement.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34052AA0-A33B-41C5-B085-09F76E9E0C7B}|src\\SalesManagement.Application\\SalesManagement.Application.csproj|d:\\nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\salesmanagement.application\\dto\\prodcutsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34052AA0-A33B-41C5-B085-09F76E9E0C7B}|src\\SalesManagement.Application\\SalesManagement.Application.csproj|solutionrelative:src\\salesmanagement.application\\dto\\prodcutsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20241025184223_InitialCreate.cs",
-              "DocumentMoniker": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Infrastructure\\Migrations\\20241025184223_InitialCreate.cs",
-              "RelativeDocumentMoniker": "src\\SalesManagement.Infrastructure\\Migrations\\20241025184223_InitialCreate.cs",
-              "ToolTip": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Infrastructure\\Migrations\\20241025184223_InitialCreate.cs",
-              "RelativeToolTip": "src\\SalesManagement.Infrastructure\\Migrations\\20241025184223_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T18:42:24.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SalesManagement.Presentation",
-              "DocumentMoniker": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Presentation\\SalesManagement.Presentation.csproj",
-              "RelativeDocumentMoniker": "src\\SalesManagement.Presentation\\SalesManagement.Presentation.csproj",
-              "ToolTip": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Presentation\\SalesManagement.Presentation.csproj",
-              "RelativeToolTip": "src\\SalesManagement.Presentation\\SalesManagement.Presentation.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-25T18:41:10.122Z",
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "src\\SalesManagement.Application\\Services\\ProductService.cs",
+              "ToolTip": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "src\\SalesManagement.Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAADUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T19:42:42.658Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SalesManagement.Infrastructure",
-              "DocumentMoniker": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Infrastructure\\SalesManagement.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "src\\SalesManagement.Infrastructure\\SalesManagement.Infrastructure.csproj",
-              "ToolTip": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Infrastructure\\SalesManagement.Infrastructure.csproj",
-              "RelativeToolTip": "src\\SalesManagement.Infrastructure\\SalesManagement.Infrastructure.csproj",
-              "ViewState": "AgIAAAcAAAAAAAAAAAASwBIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-25T18:40:27.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductOrder.cs",
-              "DocumentMoniker": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Domain\\Models\\ProductOrder.cs",
-              "RelativeDocumentMoniker": "src\\SalesManagement.Domain\\Models\\ProductOrder.cs",
-              "ToolTip": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Domain\\Models\\ProductOrder.cs",
-              "RelativeToolTip": "src\\SalesManagement.Domain\\Models\\ProductOrder.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Title": "PaginatedListDto.cs",
+              "DocumentMoniker": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Application\\Dto\\PaginatedListDto.cs",
+              "RelativeDocumentMoniker": "src\\SalesManagement.Application\\Dto\\PaginatedListDto.cs",
+              "ToolTip": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Application\\Dto\\PaginatedListDto.cs",
+              "RelativeToolTip": "src\\SalesManagement.Application\\Dto\\PaginatedListDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T18:33:59.112Z",
+              "WhenOpened": "2024-10-26T05:41:28.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Domain\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "src\\SalesManagement.Domain\\Models\\Product.cs",
-              "ToolTip": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Domain\\Models\\Product.cs",
-              "RelativeToolTip": "src\\SalesManagement.Domain\\Models\\Product.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBEAAAAfAAAAAAAAAA==",
+              "Title": "ProdcutSearch.cs",
+              "DocumentMoniker": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Application\\Dto\\ProdcutSearch.cs",
+              "RelativeDocumentMoniker": "src\\SalesManagement.Application\\Dto\\ProdcutSearch.cs",
+              "ToolTip": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Application\\Dto\\ProdcutSearch.cs",
+              "RelativeToolTip": "src\\SalesManagement.Application\\Dto\\ProdcutSearch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T18:29:42.738Z",
+              "WhenOpened": "2024-10-26T05:12:17.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Domain\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "src\\SalesManagement.Domain\\Models\\Order.cs",
-              "ToolTip": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Domain\\Models\\Order.cs",
-              "RelativeToolTip": "src\\SalesManagement.Domain\\Models\\Order.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAAB8AAAAsAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Application\\IServices\\IProductService.cs",
+              "RelativeDocumentMoniker": "src\\SalesManagement.Application\\IServices\\IProductService.cs",
+              "ToolTip": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Application\\IServices\\IProductService.cs",
+              "RelativeToolTip": "src\\SalesManagement.Application\\IServices\\IProductService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwAwAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T18:28:35.554Z",
+              "WhenOpened": "2024-10-26T05:07:59.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Presentation\\Program.cs",
-              "RelativeDocumentMoniker": "src\\SalesManagement.Presentation\\Program.cs",
-              "ToolTip": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Presentation\\Program.cs",
-              "RelativeToolTip": "src\\SalesManagement.Presentation\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Presentation\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "src\\SalesManagement.Presentation\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Presentation\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "src\\SalesManagement.Presentation\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAEkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T18:09:41.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InfrastructureConfigRegistration.cs",
-              "DocumentMoniker": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Infrastructure\\InfrastructureConfigRegistration.cs",
-              "RelativeDocumentMoniker": "src\\SalesManagement.Infrastructure\\InfrastructureConfigRegistration.cs",
-              "ToolTip": "D:\\Nash\\quytvm_geneat_test_oct_2024\\quytvm_geneat_test_oct_2024\\src\\SalesManagement.Infrastructure\\InfrastructureConfigRegistration.cs",
-              "RelativeToolTip": "src\\SalesManagement.Infrastructure\\InfrastructureConfigRegistration.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T18:08:49.726Z",
+              "WhenOpened": "2024-10-26T04:16:20.125Z",
               "EditorCaption": ""
             }
           ]

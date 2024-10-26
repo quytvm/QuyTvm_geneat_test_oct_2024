@@ -24,7 +24,7 @@ namespace SalesManagement.Domain.Models
 
         [Required]
         [StringLength(30)]
-        public string? Unit { get; set; }
+        public string Unit { get; set; }
 
         [Required]
         [Column(TypeName = "decimal(18,2)")]

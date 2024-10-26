@@ -147,3 +147,7 @@ D:\Nash\quytvm_geneat_test_oct_2024\quytvm_geneat_test_oct_2024\src\SalesManagem
 D:\Nash\quytvm_geneat_test_oct_2024\quytvm_geneat_test_oct_2024\src\SalesManagement.Presentation\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Nash\quytvm_geneat_test_oct_2024\quytvm_geneat_test_oct_2024\src\SalesManagement.Presentation\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Nash\quytvm_geneat_test_oct_2024\quytvm_geneat_test_oct_2024\src\SalesManagement.Presentation\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nash\quytvm_geneat_test_oct_2024\quytvm_geneat_test_oct_2024\src\SalesManagement.Presentation\bin\Debug\net8.0\AutoMapper.dll
+D:\Nash\quytvm_geneat_test_oct_2024\quytvm_geneat_test_oct_2024\src\SalesManagement.Presentation\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Nash\quytvm_geneat_test_oct_2024\quytvm_geneat_test_oct_2024\src\SalesManagement.Presentation\bin\Debug\net8.0\FluentValidation.dll
+D:\Nash\quytvm_geneat_test_oct_2024\quytvm_geneat_test_oct_2024\src\SalesManagement.Presentation\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

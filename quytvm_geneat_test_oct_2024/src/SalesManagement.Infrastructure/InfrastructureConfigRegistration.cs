@@ -1,7 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using SalesManagement.Domain.IRepositories;
 using SalesManagement.Infrastructure.Data;
+using SalesManagement.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +20,11 @@ namespace SalesManagement.Infrastructure
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection") ??
                     throw new InvalidOperationException("connection string not found"));
             });
+            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IOrderRepository, OrderRepository>();
+            services.AddScoped<IProductOrderRepository, ProductOrderRepository>();
+
             return services;
         }
     }
